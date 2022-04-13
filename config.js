@@ -13,9 +13,9 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.linkGC = ['https://chat.whatsapp.com/EVCGfzxLWfp81n0WhmVklH', 'https://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['60189830350', '60149431385', '60189830350'] // Masukan nomot kalian
-global.mods = ['60189830350', '60149431385'] // Moderator
+global.linkGC = ['https://chat.whatsapp.com/EVCGfzxLWfp81n0WhmVklH', 'https://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N','https://chat.whatsapp.com/HiBsl38E2nNEg61veLz0km'] // ganti jadi group lu
+global.owner = ['60189830350', '60149431385', '60189830350','6281368176386','6283802603905'] // Masukan nomot kalian
+global.mods = ['60189830350', '6281368176386'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -54,8 +54,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'LynXzy🥀'
-  var sticker_author = '©LynXzy🥀    ?'
+  var sticker_name = 'SKDPBOT🥀'
+  var sticker_author = '©SKDPBOT🥀    ?'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
